@@ -1,0 +1,162 @@
+=== Testing llama3.2-1b ===
+=== Testing llama3.2-1b ===
+Sending prompt to port 8082...
+  Prompt: Write a Python function that returns the Fibonacci sequence up to n. Keep it short.
+
+Response (5.5s):
+  
+The first step in solving this problem is to understand what the question is asking. The question is asking for a specific type of mathematical function, often referred to as a "quadratic function."
+
+A quadratic function is a polynomial function of degree two, which means it has a leading coefficient of one and can be written in the form of ax^2 + bx + c, where a, b, and c are constants.
+
+The second step is to identify the characteristics of a quadratic function. A quadratic function has a parabola-shaped graph, which means it opens upward or downward. The vertex of the parabola is the lowest or highest point on the graph, depending on the direction of the opening.
+
+The third step is to find the vertex of the parabola. The vertex is the point on the graph that corresponds to the minimum or maximum point on the graph. To find the vertex, we can use the formula:
+
+x = -b/(2a)
+
+This formula is derived from the general equation of a parabola:
+
+y = ax^2 + bx + c
+
+where x is the variable, a is the coefficient of the x^2 term, b is the coefficient of the x term, and c is the constant term.
+
+The fourth step is
+
+Tokens: 4 prompt, 256 completion, 260 total
+Speed: 46.2 tokens/sec
+
+
+=== Testing qwen3-1.7b ===
+=== Testing qwen3-1.7b ===
+Sending prompt to port 8082...
+  Prompt: Write a Python function that returns the Fibonacci sequence up to n. Keep it short.
+
+Response (7.7s):
+  <think>
+Okay, the user wants a Python function that returns the Fibonacci sequence up to n. Let me think. So, the function should take an integer n as input and generate all Fibonacci numbers that are less than or equal to n.
+
+First, I need to handle the base cases. If n is less than 0, maybe return an empty list? Or handle that properly. Let's say if n is 0, return an empty list. If n is 1, return [0] or [1]? Wait, the problem says up to n. So if n is 1, the sequence would be [0, 1] because 1 is included. Wait, no, the Fibonacci sequence starts with 0 and 1. So for n=1, the sequence would be [0, 1], but if n is 0, it's just [0]. Wait, the user might expect that. Let me check.
+
+The Fibonacci sequence is typically 0, 1, 1, 2, 3, 5, etc. So if n is 1, the sequence up to 1 would be [0, 1]. But if n is 0, it's [0]. So the function needs to
+
+Tokens: 39 prompt, 256 completion, 295 total
+Speed: 33.4 tokens/sec
+
+
+=== Testing smollm3 ===
+=== Testing smollm3 ===
+Sending prompt to port 8082...
+  Prompt: Write a Python function that returns the Fibonacci sequence up to n. Keep it short.
+
+Response (2.4s):
+  <think>
+
+</think>
+```python
+def fibonacci(n):
+    fib = [0, 1]
+    while len(fib) < n:
+        fib.append(fib[-1] + fib[-2])
+    return fib
+```
+
+Tokens: 39 prompt, 48 completion, 87 total
+Speed: 19.8 tokens/sec
+
+
+=== Testing llama3.2-3b ===
+=== Testing llama3.2-3b ===
+Sending prompt to port 8082...
+  Prompt: Write a Python function that returns the Fibonacci sequence up to n. Keep it short.
+
+Response (12.5s):
+  d
+
+**Llama3D**
+================
+
+A 3D modeling and animation software written in C++ and OpenGL.
+
+**Features**
+
+*   3D modeling and editing tools
+*   Animation and rigging tools
+*   Physics-based simulation
+*   Real-time rendering
+
+**Installation**
+
+1.  Clone the repository: `git clone https://github.com/llama3d/llama3d.git`
+2.  Build the project: `cmake .. && make`
+3.  Install the dependencies: `sudo apt-get install libglew-dev libglew-mesa-dev`
+4.  Run the application: `./llama3d`
+
+**Usage**
+
+1.  Create a new project: File > New Project
+2.  Load a 3D model: File > Load 3D Model
+3.  Edit the model: Tools > Edit
+4.  Animate the model: Tools > Animation > Keyframe
+5.  Run the animation: Tools > Animation > Play
+
+**Technical Details**
+
+*   C++: Primary development language
+*   OpenGL: Graphics rendering library
+*   GLEW: OpenGL extension wrapper library
+*   GLM: Vector and matrix math library
+*  
+
+Tokens: 4 prompt, 256 completion, 260 total
+Speed: 20.4 tokens/sec
+
+
+=== Testing granite ===
+=== Testing granite ===
+Sending prompt to port 8082...
+  Prompt: Write a Python function that returns the Fibonacci sequence up to n. Keep it short.
+
+Response (13.3s):
+  <think></think>Here is a concise, short version of a function that returns the Fibonacci sequence up to (including) n numbers:
+
+```python
+def fib_up_to(n: int) -> list[int]:
+    """Return a list containing the first n Fibonacci numbers."""
+    if n <= 0:
+        return []
+    if n == 1:
+        return [0]
+    if n == 2:
+        return [0, 1]
+
+    a, b = 0, 1
+    return [a, b] + [a + b for _ in range(n - 2)]
+```
+
+**Example usage**
+
+```python
+>>> fib_up_to(7)
+[0, 1, 1, 2, 3, 5, 8]
+```
+
+The function works for any non‑negative integer `n` and returns the Fibonacci sequence starting from 0. If you prefer the sequence to start with 1 (i.e., `[1, 1, 2, 3, …]`), just replace the initial return values or adjust the loop accordingly.
+
+Tokens: 39 prompt, 254 completion, 293 total
+Speed: 19.1 tokens/sec
+
+
+=== Testing gemma4-e2b ===
+=== Testing gemma4-e2b ===
+Sending prompt to port 8082...
+  Prompt: Write a Python function that returns the Fibonacci sequence up to n. Keep it short.
+
+Response (0.3s):
+  _4
+
+Tokens: 3 prompt, 3 completion, 6 total
+Speed: 10.1 tokens/sec
+
+
+=== All tests complete ===
