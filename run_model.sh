@@ -53,6 +53,7 @@ MODELS[smollm3]="HuggingFaceTB_SmolLM3-3B-Q4_K_M.gguf|chatml|16384|0|SmolLM3 3B 
 MODELS[phi3-3.8b]="phi3-3.8b.gguf|phi3|16384|0|Phi-3 3.8B"
 MODELS[phi4-mini]="Phi-4-mini-instruct.Q4_K_M.gguf|phi3|16384|1|Phi-4-mini (new)"
 MODELS[smallthinker-3b]="smallthinker-3b.gguf|chatml|8192|1|SmallThinker 3B"
+MODELS[ministral-3b]="ministral-3b-instruct-q5_k_m.gguf|chatml|16384|0|Ministral-3B Instruct"
 
 # ── 7B class ──
 MODELS[deepseek-r1-7b]="deepseek-r1-7b.gguf|deepseek|2048|1|DeepSeek R1 7B"
