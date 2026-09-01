@@ -24,8 +24,8 @@ from pathlib import Path
 PROJECT_DIR = Path(__file__).parent
 PROMPTS_FILE = PROJECT_DIR / "test_prompts.json"
 RESULTS_DIR = PROJECT_DIR / "results"
-ZOO_DIR = Path(os.path.expanduser("~/models/new-zoo"))
-LLAMA_CLI = os.path.expanduser("~/llama.cpp/build/bin/llama-cli")
+ZOO_DIR = Path(os.environ.get("ZOO_DIR", os.path.expanduser("~/models/new-zoo")))
+LLAMA_CLI = os.environ.get("LLAMA_CLI", os.path.expanduser("~/llama.cpp/build/bin/llama-cli"))
 
 # Model configs (mirrors run_model.sh registry)
 # format: (filename, template, context, thinking)

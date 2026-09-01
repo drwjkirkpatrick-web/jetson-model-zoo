@@ -141,7 +141,7 @@
       "id": "func_sqlite",
       "category": "function_call",
       "name": "Function Call: SQLite Query",
-      "prompt": "Query the database at /home/walker/data/clinic.db for all patients seen in the last 30 days. Show me their names and visit dates.",
+      "prompt": "Query the database at clinic.db for all patients seen in the last 30 days. Show me their names and visit dates.",
       "expected_tool": "terminal",
       "scoring_rubric": {
         "10": "Constructs and runs a proper SQLite query with date filtering",

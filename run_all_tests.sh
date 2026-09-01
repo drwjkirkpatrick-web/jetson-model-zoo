@@ -2,7 +2,7 @@
 # run_all_tests.sh — Run all 27 models through all 12 prompts at 2048 max tokens
 # Saves results to results/ directory, one JSON per model
 
-cd /home/walker/projects/jetson-model-zoo
+cd "$(dirname "$0")"
 
 MODELS=(
     gemma3-1b
