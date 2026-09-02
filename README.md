@@ -1,5 +1,22 @@
 # Jetson Model Zoo
 
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Platform](https://img.shields.io/badge/platform-NVIDIA%20Jetson%208GB-76B900.svg)
+![Models](https://img.shields.io/badge/models-27%20tested-orange.svg)
+![Prompts](https://img.shields.io/badge/prompts-12%20across%206%20categories-9cf.svg)
+![Scored Rows](https://img.shields.io/badge/scored%20rows-2%2C916-blue.svg)
+![Sweeps](https://img.shields.io/badge/sweeps-temp%20%2B%20top__k-blueviolet.svg)
+![Champion](https://img.shields.io/badge/champion-hermes3--3b--q5%20(7.8)--gold.svg)
+![llama.cpp](https://img.shields.io/badge/engine-llama.cpp%20CUDA-red.svg)
+![ARM64](https://img.shields.io/badge/arch-ARM64-aarch64.svg)
+![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
+
+![k=40](https://img.shields.io/badge/top__k-40%20optimal%20(19%2F27)-blueviolet.svg)
+![DeepSeek Fix](https://img.shields.io/badge/DeepSeek-chatml%20template%20fix-yellow.svg)
+![Reports](https://img.shields.io/badge/reports-PDF%20%2B%20CSV-success.svg)
+![GPU](https://img.shields.io/badge/GPU-full%20offload%20%2B%20flash%20attn-success.svg)
+![Categories](https://img.shields.io/badge/categories-HTML%20%7C%20Python%20%7C%20Math%20%7C%20Poetry%20%7C%20Creative%20%7C%20Func%20Calls-purple.svg)
+
 > Systematic evaluation of 27 small LLMs (1B–7B) running on an 8GB NVIDIA Jetson with llama.cpp GPU acceleration.
 
 ## What is this?
