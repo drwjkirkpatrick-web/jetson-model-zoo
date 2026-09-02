@@ -29,7 +29,7 @@ MODELS[gemma3-1b]="gemma3-1b.gguf|gemma|32768|0|Gemma 3 1B"
 MODELS[llama3.2-1b]="Llama-3.2-1B-Instruct.Q4_K_M.gguf|llama3|32768|0|Llama 3.2 1B (new)"
 
 # ── 1.5B class ──
-MODELS[deepseek-r1-1.5b]="deepseek-r1-1.5b.gguf|deepseek|8192|1|DeepSeek R1 1.5B"
+MODELS[deepseek-r1-1.5b]="deepseek-r1-1.5b.gguf|chatml|8192|1|DeepSeek R1 1.5B"
 MODELS[qwen3-1.7b]="Qwen3-1.7B.Q4_K_M.gguf|chatml|32768|0|Qwen3 1.7B (new)"
 MODELS[qwen3.5-2b]="Qwen_Qwen3.5-2B-Q4_K_M.gguf|chatml|16384|1|Qwen3.5 2B (new)"
 
@@ -57,7 +57,7 @@ MODELS[ministral-3b]="ministral-3b-instruct-q5_k_m.gguf|chatml|16384|0|Ministral
 MODELS[ministral-3b-reasoning]="Ministral-3-3B-Reasoning-2512-Q4_K_M.gguf|chatml|16384|1|Ministral-3B Reasoning"
 
 # ── 7B class ──
-MODELS[deepseek-r1-7b]="deepseek-r1-7b.gguf|deepseek|2048|1|DeepSeek R1 7B"
+MODELS[deepseek-r1-7b]="deepseek-r1-7b.gguf|chatml|2048|1|DeepSeek R1 7B"
 
 # ── E2B (MatFormer, needs reduced context) ──
 MODELS[gemma3n-e2b]="gemma-3n-E2B-it-Q4_K_M.gguf|gemma|8192|1|Gemma 3n E2B (new)"

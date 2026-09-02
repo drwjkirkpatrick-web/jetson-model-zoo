@@ -32,7 +32,7 @@ LLAMA_CLI = os.environ.get("LLAMA_CLI", os.path.expanduser("~/llama.cpp/build/bi
 MODEL_CONFIGS = {
     "gemma3-1b":            ("gemma3-1b.gguf", "gemma", 8192, False),
     "llama3.2-1b":          ("Llama-3.2-1B-Instruct.Q4_K_M.gguf", "llama3", 8192, False),
-    "deepseek-r1-1.5b":     ("deepseek-r1-1.5b.gguf", "deepseek", 4096, True),
+    "deepseek-r1-1.5b":     ("deepseek-r1-1.5b.gguf", "chatml", 4096, True),
     "qwen3-1.7b":           ("Qwen3-1.7B.Q4_K_M.gguf", "chatml", 8192, False),
     "qwen3.5-2b":           ("Qwen_Qwen3.5-2B-Q4_K_M.gguf", "chatml", 8192, True),
     "granite3.2-2b":        ("granite3.2-2b.gguf", "chatml", 8192, False),
@@ -54,7 +54,7 @@ MODEL_CONFIGS = {
     "smallthinker-3b":      ("smallthinker-3b.gguf", "chatml", 4096, True),
     "ministral-3b":         ("ministral-3b-instruct-q5_k_m.gguf", "chatml", 8192, False),
     "ministral-3b-reasoning": ("Ministral-3-3B-Reasoning-2512-Q4_K_M.gguf", "chatml", 8192, True),
-    "deepseek-r1-7b":       ("deepseek-r1-7b.gguf", "deepseek", 2048, True),
+    "deepseek-r1-7b":       ("deepseek-r1-7b.gguf", "chatml", 2048, True),
     "gemma4-e2b":           ("gemma-4-E2B-it-Q4_K_M.gguf", "gemma", 2048, True),
     "gemma3n-e2b":          ("gemma-3n-E2B-it-Q4_K_M.gguf", "gemma", 2048, True),
 }
