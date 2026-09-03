@@ -12,11 +12,16 @@
 ![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
 ![k=40](https://img.shields.io/badge/top__k-40%20optimal%20(21%2F27)-blueviolet.svg)
-![DeepSeek Fix](https://img.shields.io/badge/DeepSeek-chatml%20template%20fix-yellow.svg)
-![E2B Fix](https://img.shields.io/badge/E2B-chatml%20template%20fix-yellow.svg)
+![DeepSeek Fix](https://img.shields.io/badge/DeepSeek-chatml%20fix%20(43--158%25)-yellow.svg)
+![E2B Fix](https://img.shields.io/badge/E2B-chatml%20fix%20(273--650%25)-yellow.svg)
 ![Reports](https://img.shields.io/badge/reports-PDF%20%2B%20CSV-success.svg)
 ![GPU](https://img.shields.io/badge/GPU-full%20offload%20%2B%20flash%20attn-success.svg)
 ![Categories](https://img.shields.io/badge/categories-HTML%20%7C%20Python%20%7C%20Math%20%7C%20Poetry%20%7C%20Creative%20%7C%20Func%20Calls-purple.svg)
+
+![Coding #1](https://img.shields.io/badge/coding%231-DeepSeek%20R1%207B%20%2B%20LFM%202.5%20(10.0)-blue.svg)
+![Creative #1](https://img.shields.io/badge/creative%231-Gemma%203n%20E2B%20(9.5)-ff69b4.svg)
+![Func #1](https://img.shields.io/badge/func%20call%231-SmallThinker%203B%20(7.7)-orange.svg)
+![E2B Jump](https://img.shields.io/badge/E2B%20jump-gemma3n%201.9%E2%86%927.1%20%2B%20gemma4%200.8%E2%86%926.0-success.svg)
 
 > Systematic evaluation of 27 small LLMs (1B-7B) running on an 8GB NVIDIA Jetson with llama.cpp GPU acceleration. 2,916 scored rows across temperature and top-k sweeps.
 
