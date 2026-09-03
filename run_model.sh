@@ -60,8 +60,8 @@ MODELS[ministral-3b-reasoning]="Ministral-3-3B-Reasoning-2512-Q4_K_M.gguf|chatml
 MODELS[deepseek-r1-7b]="deepseek-r1-7b.gguf|chatml|2048|1|DeepSeek R1 7B"
 
 # ── E2B (MatFormer, needs reduced context) ──
-MODELS[gemma3n-e2b]="gemma-3n-E2B-it-Q4_K_M.gguf|gemma|8192|1|Gemma 3n E2B (new)"
-MODELS[gemma4-e2b]="gemma-4-E2B-it-Q4_K_M.gguf|gemma|2048|1|Gemma 4 E2B"
+MODELS[gemma3n-e2b]="gemma-3n-E2B-it-Q4_K_M.gguf|chatml|8192|1|Gemma 3n E2B (new)"
+MODELS[gemma4-e2b]="gemma-4-E2B-it-Q4_K_M.gguf|chatml|2048|1|Gemma 4 E2B"
 
 # ── Commands ────────────────────────────────────────────────────────────
 if [[ "${1:-}" == "list" ]]; then

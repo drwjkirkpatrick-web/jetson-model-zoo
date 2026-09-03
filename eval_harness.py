@@ -55,8 +55,8 @@ MODEL_CONFIGS = {
     "ministral-3b":         ("ministral-3b-instruct-q5_k_m.gguf", "chatml", 8192, False),
     "ministral-3b-reasoning": ("Ministral-3-3B-Reasoning-2512-Q4_K_M.gguf", "chatml", 8192, True),
     "deepseek-r1-7b":       ("deepseek-r1-7b.gguf", "chatml", 2048, True),
-    "gemma4-e2b":           ("gemma-4-E2B-it-Q4_K_M.gguf", "gemma", 2048, True),
-    "gemma3n-e2b":          ("gemma-3n-E2B-it-Q4_K_M.gguf", "gemma", 2048, True),
+    "gemma4-e2b":           ("gemma-4-E2B-it-Q4_K_M.gguf", "chatml", 2048, True),
+    "gemma3n-e2b":          ("gemma-3n-E2B-it-Q4_K_M.gguf", "chatml", 2048, True),
 }
 
 def load_prompts():
